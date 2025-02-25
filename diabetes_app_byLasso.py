@@ -49,7 +49,7 @@ def main():
     
     age = st.number_input("Age", min_value=1, max_value=200, value=5)
     sex = st.radio("Sex", ["Male", "Female"])
-    bmi = st.number_input("Bmi", min_value=1.0, max_value=10000.0, value=50.0)
+    bmi = st.number_input("Bmi", min_value=0.0, max_value=10000.0, value=50.0)
     bp = st.number_input("Average blood pressure", min_value=30.0, max_value=500.0, value=90.0)
     s1 = st.number_input("Total serum cholesterol (tc)", min_value=0.0, max_value=1000.0, value=180.0)
     s2 = st.number_input("Low-density lipoproteins (ldl)", min_value=0.0, max_value=500.0, value=100.0)
