@@ -1,4 +1,1 @@
-pickle5
-pandas
-numpy
 pymongo
